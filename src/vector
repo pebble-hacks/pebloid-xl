@@ -1,0 +1,24 @@
+ball.c:140:						position = (float)(ball->position.x + BALL_SIZE - game->paddle->x) / (float)(PADDLE_W + BALL_SIZE);
+game.c:82:    GRect paddle_rect = layer_get_frame(bitmap_layer_get_layer(game->paddle->layer));
+game.c:346:    data1.paddle_x = game->paddle->x;
+game.c:384:            game->paddle->x = data1.paddle_x;
+game.c:387:            layer_set_frame(bitmap_layer_get_layer(game->paddle->layer), GRect(game->paddle->x + 0.5f, PADDLE_Y, PADDLE_W, PADDLE_H));
+paddle.c:23:    new_paddle->layer = bitmap_layer_create(PADDLE_START_POS);
+paddle.c:24:    bitmap_layer_set_bitmap(new_paddle->layer, imgPaddle);
+paddle.c:32:    paddle->x = PADDLE_X;
+paddle.c:33:    paddle->vector = 0.0f;
+paddle.c:38:    if (paddle->vector != 0.0f)
+paddle.c:41:        paddle->x += (paddle->vector * faktor);
+paddle.c:42:        if (paddle->x < PADDLE_MIN_POS) paddle->x = PADDLE_MIN_POS;
+paddle.c:43:        if (paddle->x > PADDLE_MAX_POS) paddle->x = PADDLE_MAX_POS;
+paddle.c:45:        layer_set_frame(bitmap_layer_get_layer(paddle->layer), GRect(paddle->x + 0.5f, PADDLE_Y, PADDLE_W, PADDLE_H));
+paddle.c:55:    bitmap_layer_destroy(paddle->layer);
+Pebloid_v2.c:103:            Layer* paddle_layer = bitmap_layer_get_layer(game.paddle->layer);
+Pebloid_v2.c:134:            Layer* paddle_layer = bitmap_layer_get_layer(game.paddle->layer);
+Pebloid_v2.c:192:            Layer* paddle_layer = bitmap_layer_get_layer(game.paddle->layer);
+Pebloid_v2.c:251:            Layer* paddle_layer = bitmap_layer_get_layer(game.paddle->layer);
+Pebloid_v2.c:476:  game.paddle->vector = f;
+Pebloid_v2.c:489:            game.paddle->vector = -1.0f;
+Pebloid_v2.c:493:            game.paddle->vector = 1.0f;
+Pebloid_v2.c:507:            game.paddle->vector = 0.0f;
+Pebloid_v2.c:824:	layer_add_child(gameLayer, bitmap_layer_get_layer(game.paddle->layer));

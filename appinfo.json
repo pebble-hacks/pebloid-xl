@@ -1,0 +1,123 @@
+{
+    "uuid": "abbba0a3-9eeb-41c0-ac9f-13a757d058e2",
+    "shortName": "Pebloid",
+    "longName": "Pebloid",
+    "companyName": "Dirk Mika",
+    "versionCode": 3,
+    "versionLabel": "3.0.0",
+    "watchapp": {
+        "watchface": false
+    },
+    "appKeys": {},
+    "resources": {
+        "media": [
+                  {
+                  "type": "raw",
+                  "name": "RAW_LEVEL_DATA",
+                  "file": "raw/level_data.dat"
+                  },
+                  {
+                  "type": "font",
+                  "name": "FONT_INFO_8",
+                  "file": "fonts/prstartk.ttf"
+                  },
+                  {
+                  "type": "font",
+                  "characterRegex": "[Welcome toPbidrs'SGaOvupdwn]",
+                  "name": "FONT_HINT_16",
+                  "file": "fonts/prstartk.ttf"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMG_SETTINGS_LEFT",
+                  "file": "images/settings_left.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMG_SETTINGS_PLAY_PAUSE",
+                  "file": "images/settings_play_pause.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMG_SETTINGS_RIGHT",
+                  "file": "images/settings_right.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMG_SETTINGS_BACKLIGHT",
+                  "file": "images/settings_backlight.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMG_SETTINGS_SOUND",
+                  "file": "images/settings_sound.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMG_POWERUP_SPEED_UP",
+                  "file": "images/PowerUpSpeedUp.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMG_POWERUP_SLOW_BALL",
+                  "file": "images/PowerUpSlowBall.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMG_POWERUP_POWER_BALL",
+                  "file": "images/PowerUpPowerBall.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMG_POWERUP_ADD_BALL",
+                  "file": "images/PowerUpAddBall.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMG_POWERUP_MISSILE_LAUNCHER",
+                  "file": "images/PowerUpMissileLauncher.png"
+                  },
+                  {
+                  "menuIcon": true,
+                  "type": "png",
+                  "name": "IMAGE_MENU_ICON",
+                  "file": "images/Pebloid.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMG_PADDLE",
+                  "file": "images/paddle.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMG_BLOCK_SOLID",
+                  "file": "images/block_solid.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMG_BLOCK_NORMAL",
+                  "file": "images/block_normal.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMG_BLOCK_DOUBLEHIT_2",
+                  "file": "images/block_doublehit_2.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMG_BLOCK_DOUBLEHIT_1",
+                  "file": "images/block_doublehit_1.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMG_BALL",
+                  "file": "images/ball.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMG_MISSILE",
+                  "file": "images/missile.png"
+                  }
+                  ]
+    }
+}
